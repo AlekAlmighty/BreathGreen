@@ -2068,3 +2068,477 @@ main {
   border-color: #00ff66;
 }
 
+/* ===== MOBILE RESPONSIVE DESIGN ===== */
+
+/* Tablets (768px and below) */
+@media (max-width: 768px) {
+  body {
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .dashboard-header .header-container {
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px 15px;
+  }
+
+  .dashboard-header .logo {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+  }
+
+  .nav-links a {
+    font-size: 13px;
+    padding: 5px 10px;
+  }
+
+  .logout-btn {
+    margin-left: 0;
+  }
+
+  main {
+    padding: 15px;
+  }
+
+  .motivation-card {
+    padding: 30px 20px;
+    min-height: 160px;
+  }
+
+  .motivation-card p {
+    font-size: 32px;
+  }
+
+  .overview-grid {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 15px;
+  }
+
+  .card h3 {
+    font-size: 14px;
+  }
+
+  .card p {
+    font-size: 20px;
+  }
+
+  .help-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .help-card {
+    min-height: auto;
+  }
+
+  .help-btn {
+    padding: 8px 14px;
+    font-size: 13px;
+  }
+
+  .notepad-window {
+    width: 90%;
+    max-width: 350px;
+  }
+
+  .money-header h1 {
+    font-size: 2rem;
+  }
+
+  .savings-grid {
+    gap: 12px;
+  }
+
+  .savings-card {
+    width: 120px;
+    padding: 15px 12px;
+  }
+
+  .goal-section {
+    width: 95%;
+  }
+
+  .chart-section {
+    width: 95%;
+  }
+
+  .buy-section {
+    width: 95%;
+  }
+
+  .milestones-container {
+    gap: 15px;
+  }
+
+  .milestone-header h1 {
+    font-size: 1.5em;
+  }
+
+  .milestone-card {
+    padding: 15px 12px;
+  }
+
+  .milestone-health th,
+  .milestone-health td {
+    padding: 8px 5px;
+    font-size: 13px;
+  }
+
+  .environment-header h1 {
+    font-size: 1.5em;
+  }
+
+  .environment-grid {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px;
+  }
+
+  .environment-card {
+    padding: 15px;
+  }
+
+  .environment-card h3 {
+    font-size: 0.95em;
+  }
+
+  .environment-card p {
+    font-size: 1.5em;
+  }
+
+  .green-goal {
+    padding: 15px;
+  }
+
+  .memory-grid {
+    max-width: 280px;
+  }
+
+  .game-select {
+    min-width: 120px;
+    padding: 10px 12px;
+    font-size: 13px;
+  }
+}
+
+/* Mobile phones (480px and below) */
+@media (max-width: 480px) {
+  .dashboard-header {
+    padding: 8px 0;
+  }
+
+  .dashboard-header .header-container {
+    padding: 10px 12px;
+  }
+
+  .dashboard-header .logo {
+    font-size: 16px;
+  }
+
+  .nav-links {
+    gap: 6px;
+  }
+
+  .nav-links a {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+
+  .logout-btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  main {
+    padding: 10px;
+    max-width: 100%;
+  }
+
+  .motivation-card {
+    padding: 20px 15px;
+    min-height: 140px;
+    border-radius: 10px;
+  }
+
+  .motivation-card p {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+
+  .overview-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  .card h3 {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+
+  .card p {
+    font-size: 18px;
+  }
+
+  .help-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .help-card {
+    min-height: auto;
+    padding: 15px;
+  }
+
+  .help-btn {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+
+  .help-card h3 {
+    font-size: 16px;
+  }
+
+  .help-card p {
+    font-size: 14px;
+  }
+
+  .notepad-window {
+    width: 95%;
+    max-width: 300px;
+  }
+
+  .notepad-header h4 {
+    font-size: 1rem;
+  }
+
+  .notepad-body {
+    padding: 12px;
+    gap: 8px;
+  }
+
+  #reason-text {
+    min-height: 70px;
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .notepad-add {
+    width: 100%;
+    padding: 8px 12px;
+  }
+
+  .money-header {
+    padding: 8px;
+  }
+
+  .money-header h1 {
+    font-size: 1.6rem;
+    margin-bottom: 3px;
+  }
+
+  .money-header p {
+    font-size: 0.9rem;
+  }
+
+  .savings-grid {
+    gap: 8px;
+  }
+
+  .savings-card {
+    width: 100%;
+    padding: 12px;
+    max-width: none;
+  }
+
+  .savings-card h4 {
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+
+  .savings-card p {
+    font-size: 16px;
+  }
+
+  .goal-section {
+    width: 100%;
+    padding: 12px;
+    margin: 12px auto;
+  }
+
+  .goal-section h3 {
+    font-size: 14px;
+  }
+
+  .goal-progress-text {
+    font-size: 13px;
+  }
+
+  .chart-section {
+    width: 100%;
+    padding: 10px;
+    margin: 15px auto;
+  }
+
+  .buy-section {
+    width: 100%;
+    padding: 12px;
+    margin: 12px auto;
+  }
+
+  .buy-section h3 {
+    font-size: 14px;
+  }
+
+  .buy-section li {
+    font-size: 13px;
+  }
+
+  .milestones-container {
+    gap: 12px;
+    padding: 12px 10px;
+  }
+
+  .milestone-header h1 {
+    font-size: 1.3em;
+    margin-bottom: 3px;
+  }
+
+  .milestone-header p {
+    font-size: 0.95em;
+  }
+
+  .milestone-card {
+    padding: 12px;
+  }
+
+  .milestone-card h3 {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .milestone-timeline li,
+  .milestone-financial li {
+    font-size: 13px;
+    margin: 6px 0;
+  }
+
+  .milestone-health {
+    font-size: 12px;
+  }
+
+  .milestone-health th,
+  .milestone-health td {
+    padding: 6px 3px;
+  }
+
+  .environment-header {
+    margin-bottom: 15px;
+  }
+
+  .environment-header h1 {
+    font-size: 1.3em;
+  }
+
+  .environment-header p {
+    font-size: 0.95em;
+  }
+
+  .environment-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .environment-card {
+    padding: 12px;
+  }
+
+  .environment-card h3 {
+    font-size: 0.9em;
+  }
+
+  .environment-card p {
+    font-size: 1.4em;
+  }
+
+  .green-goal {
+    padding: 12px;
+  }
+
+  .goal-input-wrap input {
+    width: 100px;
+  }
+
+  .memory-grid {
+    max-width: 240px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .game-select {
+    min-width: 100px;
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+
+  .game-center {
+    width: 100%;
+    height: 90vh;
+    border-radius: 0;
+  }
+
+  .game-header {
+    height: 50px;
+    padding: 0 12px;
+  }
+
+  .game-title {
+    font-size: 16px;
+  }
+
+  .game-close {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  .breathing-circle {
+    width: 120px;
+    height: 120px;
+    font-size: 16px;
+  }
+
+  .breathing-circle .phase-text {
+    font-size: 13px;
+  }
+
+  #exit-breathing {
+    bottom: 12px;
+    padding: 8px 14px;
+    font-size: 13px;
+  }
+
+  .create-post {
+    padding: 12px;
+  }
+
+  .form-grid {
+    gap: 12px;
+  }
+
+  #desc-input {
+    rows: 3;
+  }
+
+  .posts-feed {
+    padding: 0 8px;
+  }
+}
+
